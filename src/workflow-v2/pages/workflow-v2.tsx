@@ -503,14 +503,13 @@ export default function Flow() {
       </div>
       <div className="w-[30%] flex flex-col bg-deep-blue m-5 rounded-md">
         <div className="bg-light-blue h-5/6 m-5 mb-0 rounded-md flex justify-center items-center">
-          
+          {generated}
         </div>
         <div className="h-1/6 m-5 flex items-center justify-center">
           <div
             className="h-20 w-36 text-sm font-semibold bg-light-blue rounded-md flex justify-center items-center cursor-pointer shadow-2xl"
             onClick={() => {
               setGenerated("Vittoria Ceretti's birthdate is not explicitly stated in the provided information.  To find her birthdate, you would need to visit one of the provided links, especially the \"Vittoria Ceretti - Age, Family, Bio\" link from Famous Birthdays. \n  ")
-              
             }}
           >
             INITIALISE
